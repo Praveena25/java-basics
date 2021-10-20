@@ -1,15 +1,12 @@
 package Objectclass;
 
-import java.util.Scanner;
 
 public class Oddeven {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("enter the number");
-		int number=sc.nextInt();
+	
 		// TODO Auto-generated method stub
-     findOddEven(number);   
+     findOddEven(13);   
 	}
 
 	private static void findOddEven(int number) {
